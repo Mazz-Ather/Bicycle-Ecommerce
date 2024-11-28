@@ -1,0 +1,117 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+# npm audit fix --force
+# >> 
+# npm warn using --force Recommended protections disabled.
+# npm warn audit Updating next to 15.0.3, which is a SemVer major change.
+# npm warn ERESOLVE overriding peer dependency
+# npm warn While resolving: next@15.0.3
+# npm warn Found: react@17.0.2
+# npm warn node_modules/react
+# npm warn   peer react@"17.0.2" from react-dom@17.0.2
+# npm warn   node_modules/react-dom
+# npm warn     react-dom@"17.0.2" from the root project
+# npm warn   4 more (react-interactive, react-router, react-router-dom, the root project)       
+# npm warn
+# npm warn Could not resolve dependency:
+# npm warn peer react@"^18.2.0 || 19.0.0-rc-66855b96-20241106" from next@15.0.3
+# npm warn node_modules/next
+# npm warn   next@"15.0.3" from the root project
+# npm warn   1 more (eslint-config-next)
+# npm warn
+# npm warn Conflicting peer dependency: react@18.3.1
+# npm warn node_modules/react
+# npm warn   peer react@"^18.2.0 || 19.0.0-rc-66855b96-20241106" from next@15.0.3
+# npm warn   node_modules/next
+# npm warn     next@"15.0.3" from the root project
+# npm warn     1 more (eslint-config-next)
+# npm warn ERESOLVE overriding peer dependency
+# npm warn While resolving: next@15.0.3
+# npm warn node_modules/react-dom
+# npm warn   react-dom@"17.0.2" from the root project
+# npm warn
+# npm warn Could not resolve dependency:
+# npm warn peer react-dom@"^18.2.0 || 19.0.0-rc-66855b96-20241106" from next@15.0.3
+# npm warn node_modules/next
+# npm warn   next@"15.0.3" from the root project
+# npm warn   1 more (eslint-config-next)
+# npm warn Conflicting peer dependency: react-dom@18.3.1
+# npm warn node_modules/react-dom
+# npm warn   peer react-dom@"^18.2.0 || 19.0.0-rc-66855b96-20241106" from next@15.0.3
+# npm warn   node_modules/next
+# npm warn     next@"15.0.3" from the root project
+# npm warn     1 more (eslint-config-next)
+
+
+# 64 packages are looking for funding
+#   run `npm fund` for details
+
+# found 0 vulnerabilities
+# PS D:\Bicycle-Store-Landing-Page-master> npm install react@18 react-dom@18
+# >>
+
+# changed 3 packages, and audited 294 packages in 5s
+
+# 64 packages are looking for funding
+#   run `npm fund` for details
+
+# found 0 vulnerabilities
+# PS D:\Bicycle-Store-Landing-Page-master> npm install next
+# >>
+
+# up to date, audited 294 packages in 4s
+
+# 64 packages are looking for funding
+#   run `npm fund` for details
+
+# found 0 vulnerabilities
+# PS D:\Bicycle-Store-Landing-Page-master> npm run dev
+
+# > bicycle-store@0.1.0 dev
+# > next dev
+
+#    ▲ Next.js 15.0.3
+#    - Local:        http://localhost:3000
+
+#  ✓ Starting...
+#  ✓ Ready in 3.9s
+#  ○ Compiling / ...
+#  ⨯ ./styles/globals.css:4:1
+# Module not found: Can't resolve '../fonts/MyriadProCondensed/MyriadProCondensed.ttf'
+
+# https://nextjs.org/docs/messages/module-not-found
+
+# Import trace for requested module:
+# ./styles/globals.css
