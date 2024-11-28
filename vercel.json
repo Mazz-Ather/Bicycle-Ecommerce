@@ -5,6 +5,8 @@
         "use": "@vercel/next"
       }
     ],
-    "installCommand": "npm install"
+    "installCommand": "npm install",
+    "framework": "nextjs",
+    "version": 2
   }
   
